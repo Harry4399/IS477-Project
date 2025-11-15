@@ -90,7 +90,7 @@ The table below summarizes the original plan and highlights completed items:
 | Week | Time Period | Task | Responsible | Deliverables |
 |------|-------------|-------|-------------|--------------|
 | **1–2** | Sept 26 – Oct 7 | Define scope, collect sample data, finalize project plan | Both | ProjectPlan.md, API test script |
-| **3–4** | Oct 8 – Oct 21 | Acquire EPA API and Kaggle data; design database schema | Hua Zhaojie | Raw data files, ER diagram |
+| **3–4** | Oct 8 – Oct 21 | Acquire EPA API and Kaggle data; design database schema | Zhaojie Hua| Raw data files, ER diagram |
 | **5–6** | Oct 22 – Nov 4 | Data cleaning and profiling | Owen Wen | Cleaned datasets, quality report |
 | **7** | Nov 5 – Nov 18 | Integrate datasets; exploratory analysis | Both | Integrated dataset, visualizations |
 | **8** | Nov 19 – Nov 25 | Regression analysis | Owen Wen | Analytical graphs and statistical outputs |
@@ -180,7 +180,15 @@ Weeks 7–8 include both dataset integration and regression modeling, which are 
 
 ## 7. Conclusion
 
-In summary, the project has made strong initial progress by completing one of the most challenging stages—establishing a functioning connection to the EPA AQS API and retrieving real-world environmental data. Although minor delays occurred due to authentication issues, they have been resolved, and the project remains on track for successful completion. With foundational datasets beginning to take shape, the next phase of data cleaning, integration, and exploratory analysis can proceed smoothly.
+Looking back on the progress made in the first four weeks, we clearly see that our work has laid a relatively solid foundation for the remaining time of this semester. Although data collection and integration are still in the early stages, we have still successfully obtained and verified data from the EPA Air Quality Standards Application Programming Interface (EPA AQS API) of the United States Environmental Protection Agency. This achievement not only demonstrates our ability to handle real-world environmental datasets, but also confirms that our planned workflow, including API data collection, data cleaning, integration, and final analysis, is feasible within the project's time limit.
+
+In addition, resolving issues such as failed email authentication, API key verification, Python environment configuration, and file system permissions has helped us enhance our debugging experience and technical adaptability. These early challenges provided valuable learning opportunities. We believe that these initial obstacles strengthened our workflow and enhanced our confidence in successfully completing the project.
+
+Looking ahead to Weeks 5 to 8, our main goal is to expand the dataset so that it is no longer confined to a single date and parameter. This includes obtaining data on multiple pollutants (PM2.5, O₃, NO₂), incorporating meteorological variables such as temperature, humidity and wind speed, and preparing the Kaggle population dataset for merging. After the standardization and cleaning of the dataset are completed, we will commence exploratory data analysis (EDA) to identify the changing trends of pollutant levels and their relationship with weather conditions and population density. These analyses will lay the foundation for subsequent regression modeling and more advanced statistical comparisons.
+
+We also look forward to deeper cooperation among team members in the next stage. Zhaojie Hua will continue to lead the data collection and workflow automation efforts, especially the expansion of API retrieval scripts and the construction of a unified directory structure for the project. Owen Wen will focus on cleaning and visualizing the expanded dataset, conducting quality checks, and preparing charts and descriptive statistics, which will be included in our interim report. By coordinating our work more closely, our goal is to significantly accelerate the progress by weeks 5 to 8 and ensure that the integrated dataset is completed by Week 9 for correlation and regression analysis.
+
+In conclusion, although our project is still under development, the progress recorded in this report indicates that our technical foundation is solid, the division of responsibilities is effective, and the subsequent steps are also clear. Through continuous collaboration, constant testing and iterative improvement, we are confident that we can provide a comprehensive analysis report on how weather and population patterns across the United States affect air quality.
 
 ---
 
