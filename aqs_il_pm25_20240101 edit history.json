@@ -1,0 +1,223 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "arithmetic_mean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3.479167",
+          "3.491667"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3.5"
+      }
+    ],
+    "description": "Mass edit cells in column arithmetic_mean"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "arithmetic_mean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "4.845833"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4.8"
+      }
+    ],
+    "description": "Mass edit cells in column arithmetic_mean"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "arithmetic_mean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "4.066667"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4.0"
+      }
+    ],
+    "description": "Mass edit cells in column arithmetic_mean"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "arithmetic_mean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "4.054167"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4.0"
+      }
+    ],
+    "description": "Mass edit cells in column arithmetic_mean"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "arithmetic_mean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "4.020833"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4.0"
+      }
+    ],
+    "description": "Mass edit cells in column arithmetic_mean"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "arithmetic_mean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3.7625"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3.7"
+      }
+    ],
+    "description": "Mass edit cells in column arithmetic_mean"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "arithmetic_mean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3.554167"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3.5"
+      }
+    ],
+    "description": "Mass edit cells in column arithmetic_mean"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "arithmetic_mean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3.433333"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3.4"
+      }
+    ],
+    "description": "Mass edit cells in column arithmetic_mean"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "arithmetic_mean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3.291667"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3.3"
+      }
+    ],
+    "description": "Mass edit cells in column arithmetic_mean"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "arithmetic_mean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2.916667"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2.9"
+      }
+    ],
+    "description": "Mass edit cells in column arithmetic_mean"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "arithmetic_mean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3.004167"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3.0"
+      }
+    ],
+    "description": "Mass edit cells in column arithmetic_mean"
+  }
+]
