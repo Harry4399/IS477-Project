@@ -3,7 +3,7 @@ Contributors
 Zhaojie Hua (project lead, data curation, analysis, writing)
 Owen Wen (contributions to earlier milestones, feedback on design and writing)
 
-Summary (≈500–1000 words)
+Summary
 This project has established an example of a small but complete repeatable data workflow in the field of environmental data science. We investigated the relationship between the population of cities in Illinois and fine particulate matter (PM2.5). The main purpose is not to draw authoritative conclusions on environmental research, but to document how raw public data is obtained, cleaned, associated, and analyzed in a transparent manner so that others can replicate every step.
 
 The initial concept of this project was extremely grand. In the initial proposal, we planned to integrate multiple national datasets: historical air quality data from the U.S. Environmental Protection Agency's Air Quality System (AQS), meteorological variables, and population density data from all counties or cities in the United States. During the semester, we realized that this scope was too broad for the limited time. Therefore, in the final stage, we narrow down the scope to one state, one pollutant, and one day. This smaller scope still reflects the practical issues of data integration and reproducibility, but allows us to complete and document the entire process.
@@ -18,7 +18,7 @@ The numerical results show that the population on the sample day is weakly negat
 Therefore, the main contribution of this project lies in its methodology. All the transformation steps from the original AQS and census files to the final merged dataset are implemented in the Jupyter Notebook code file. Described in this README file. All the intermediate and final data files used in the analysis are stored in the code repository. Anyone who has access to the same public data source and a standard Python environment should be able to reproduce our results and further expand the research to more dates, other contaminants, or different regions.
 
 
-Data profile (≈500–1000 words)
+Data profile
 This project uses two primary datasets plus several derived files. Both sources are produced by U.S. federal agencies and are distributed under open data policies that permit reuse for research and teaching.
 
 EPA Air Quality System (AQS) daily data.
@@ -46,7 +46,7 @@ fig_city_population_vs_pm25_20240101.png: scatterplot of population versus PM2.5
 All data files are stored under the repository's data/ directory. The Jupyter notebook code.ipynb documents the full path from raw to derived data. No proprietary data or confidential information is included. The only potential ethical concern is that readers might combine these results with other datasets to make claims about individual risk. We address this by clearly stating that our analysis operates at the city level and covers only a single day, and by avoiding any statements about specific individuals or neighborhoods.
 
 
-Data quality (≈500–1000 words)
+Data quality
 We evaluated the data quality at multiple stages: initial collection, analysis of the raw files, data cleaning and standardization, and post-merging checks. Since both main data sources are official government products, they have already met many basic standards. However, the data integration task introduces additional risks, especially in terms of identifiers and coverage.
 
 For the AQS daily data, we first confirmed the completeness of the data extraction for the data from Illinois on January 1, 2024, by checking the number of unique monitoring sites and the range of the date_local values. All records had the same date, and each site appeared only once, so there were no duplicate data in the time dimension. Then, we checked for missing values or obviously unreasonable values in the arithmetic_mean column. On this day, the PM2.5 average value fell within a narrow range of approximately 1 to 5 µg/m³, which was reasonable for winter conditions. There were no negative values or extreme outliers. Therefore, we retained all observations, but noted that single-day data may not represent typical situations. However, for simplicity, we grouped some very similar means together.
@@ -62,7 +62,7 @@ In addition, we also checked the internal consistency of the merged file. For ea
 Overall, we believe that the data quality is sufficient for the exploration of our project, but there are obvious limitations in terms of coverage and temporal representativeness. These limitations will be elaborated on in the "Research Findings" and "Future Work" sections.
 
 
-Findings (≈500 words)
+Findings
 The integrated dataset we have includes 22 cities in Illinois. These cities have both PM2.5 and population data for the year 2024. For each city, we have the average daily PM2.5 concentration on January 1, 2024, and the estimated population for 2024. We believe these data are sufficient to support our study on the relationship between urban size and particulate matter pollution.
 
 Our data shows that the PM2.5 values are relatively low. There are no extreme outliers, and the average values of each city are slightly higher than 3 µg/m³, with most cities ranging between 2 to 4 µg/m³. However, the population figures in another dataset vary greatly, from small towns with only a few thousand residents to Chicago with over 2.6 million people, spanning several orders of magnitude.
@@ -73,7 +73,7 @@ The scatter plot with a logarithmic scale for the population axis can clearly sh
 
 Due to the small sample size and the focus on data from a single date, we cannot fully trust this data. They do not guarantee that the population is unrelated to air pollution overall. Instead, they emphasize the danger of drawing strong conclusions based on a small cross-sectional dataset without considering time averages, emission inventories, or atmospheric transport. The main value of these results is to show that even simple exploratory analysis can be contrary to people's intuitive understanding and encourage us to think and explore more. From a methodological perspective, the key outcome is that we successfully linked climate monitoring data with population estimation data through data analysis. Now, the combined dataset and charts can serve as the initial form for more complex models, such as multi-day averages, regression analysis, or weighted exposure indicators based on the population size of PM2.5.
 
-Future work (≈500–1000 words)
+Future work
 
 We believe that this project can provide a very good platform for subsequent research. Currently, our analysis only covers one pollutant, one state, and one day of data. The next step is naturally to expand these. Using the same AQS interface, we can download daily PM2.5 data for an entire year or several years. Using these data, we can calculate the seasonal or annual average values for each city and study whether the non-relevance we observed in 2024 persists over a longer period, and also study the data trends within quarters.
 
