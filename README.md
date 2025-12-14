@@ -108,6 +108,24 @@ In summary, we have now established a solid data model foundation. Future work c
 ## Reproducing the analysis
 
 The repository is organized to allow another user to reproduce the workflow with minimal manual effort.
+## Box data folder
+
+All data and output files needed to reproduce this project are stored in Box:
+
+- Box folder: https://uofi.box.com/s/uxhxt34a0vxpwvcn9qqu9vwp4q88gkjg
+
+The Box folder currently contains:
+- Raw AQS daily PM2.5 data for Illinois on 2024-01-01
+- Population estimates for Illinois places in 2024
+- Cleaned and merged dataset used in the analysis
+- Final figure `fig_city_population_vs_pm25_20240101.png`
+
+To reproduce the analysis using the Box folder:
+
+1. Download all files from the Box folder.
+2. Place the downloaded files into the local `data/` directory at the root of this repository, keeping the same filenames.
+3. Open `code.ipynb` in Jupyter.
+4. Run all cells from top to bottom to regenerate the merged dataset and figure.
 
 ### Software environment
 
